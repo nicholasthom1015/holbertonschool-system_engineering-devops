@@ -1,2 +1,2 @@
 #!/bin/bash
-
+export TRUKNOWLEDGE=217 | echo $((218+$TRUEKNOWLEDGE)) | cat -e
