@@ -5,7 +5,7 @@ while [ $B -le 10 ]
 do
 	echo "Best School"
 	(( B++ ))
-if [ $B -eq 9 ]
+if [ $B -eq 10 ]
 then
 	echo "Hi"
 fi
