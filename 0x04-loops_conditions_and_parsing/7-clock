@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+# 'This displays time for 12 hours and 59 minutes
+export H=0
+while [ $H -le 12 ]
+do
+	echo "Hour: $H"
+	(( H++ ))
+case $H in
+	1)
+	 	echo -e {1..59} | tr ' ' '\n'
+	;;
+	2)
+		echo {1..59} | tr ' ' '\n'
+	;;
+	3)
+		echo {1..59} | tr ' ' '\n'
+	;;
+	4)
+		echo {1..59} | tr ' ' '\n'
+	;;
+	5)
+		echo {1..59} | tr ' ' '\n'
+	;;
+	6)
+		echo {1..59} | tr ' ' '\n'
+	;;
+	7)
+		echo {1..59} | tr ' ' '\n'
+	;;
+	8)
+		echo {1..59} | tr ' ' '\n'
+	;;
+	9)
+		echo {1..59} | tr ' ' '\n'
+	;;
+	10)
+		echo {1..59} | tr ' ' '\n'
+	;;
+	11)
+		echo {1..59} | tr ' ' '\n'
+	;;
+	12)
+		echo {1..59} | tr ' ' '\n'
+	;;
+	13)
+		echo {1..59} | tr ' ' '\n'
+	;;
+esac
+done
