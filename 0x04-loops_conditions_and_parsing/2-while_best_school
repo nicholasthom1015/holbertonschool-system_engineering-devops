@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# 'This is displaying "Best School" 10 times'
+export B=0
+while [ $B -le 10 ]
+do
+	echo 'Best School'
+	(( B++ ))
+done
