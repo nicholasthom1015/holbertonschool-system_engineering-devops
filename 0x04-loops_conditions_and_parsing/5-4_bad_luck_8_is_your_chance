@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 'displays bad luck for the 4th loop iteration, displays good luck for the 8th loop iteration, anddisplays Best School for the other iterations
+# 'displays bad luck for the 4th loop iteration, displays good luck for the 8th loop iteration, and displays Best School for the other iterations
 export B=1
 while [ $B -le 10 ]
 do
@@ -11,6 +11,6 @@ elif [ $B -eq 9 ]
 then
 	echo 'good luck'
 else
-	echo "Hello School"
+	echo "Best School"
 fi
 done
