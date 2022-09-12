@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# 'displays bad luck for the 4th loop iteration, displays good luck for the 8th loop iteration, anddisplays Best School for the other iterations
+export B=1
+while [ $B -le 8 ]
+do
+	echo "Hello School"
+	(( B++ ))
+if [ $B -eq 4 ]
+then
+	echo 'bad luck'
+elif [ $B -eq 7 ]
+then
+	echo 'good luck'
+fi
+done
