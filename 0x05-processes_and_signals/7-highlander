@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# 'Kill Highlander'
+while :
+do
+	echo "Highlander"
+	sleep 2
+done
+
+echo "I am invincible!!!
+	
