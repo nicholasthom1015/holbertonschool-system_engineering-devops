@@ -5,7 +5,4 @@ do
 	echo "To infinity and beyond"
 	sleep 2
 done
-while [ SIGTERM=false ]
-do
-	echo "I am invincible!!!"
-done	
+	echo "I am invincible!!!"	
