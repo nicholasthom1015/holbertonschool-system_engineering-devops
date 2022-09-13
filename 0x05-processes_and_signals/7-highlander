@@ -6,6 +6,6 @@ do
 	sleep 2
 done
 
-trap exit_script SIGINT SIGTERM
+trap exit_script SIGTERM
 
 	echo "I am invincible!!!"	
