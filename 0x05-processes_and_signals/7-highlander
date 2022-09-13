@@ -5,4 +5,7 @@ do
 	echo "To infinity and beyond"
 	sleep 2
 done
+
+trap exit_script SIGINT SIGTERM
+
 	echo "I am invincible!!!"	
