@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # 'Kill Highlander'
-trap interupt SIGTERM
+trap interrup SIGTERM
 
-interupt()
+interrup()
 {
 	echo "I am inivincible!!"
 }
