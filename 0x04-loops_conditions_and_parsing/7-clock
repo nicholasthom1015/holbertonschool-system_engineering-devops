@@ -7,7 +7,7 @@ do
 	(( H++ ))
 case $H in
 	1)
-	 	echo -e {1..59} | tr ' ' '\n'
+	 	echo {1..59} | tr ' ' '\n'
 	;;
 	2)
 		echo {1..59} | tr ' ' '\n'
