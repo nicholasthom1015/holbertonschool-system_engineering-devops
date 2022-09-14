@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# 'Kill Highlander for real'
+kill 7-highlander
