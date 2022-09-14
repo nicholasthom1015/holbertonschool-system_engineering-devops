@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
 # 'Kill Highlander'
-trap interrup SIGTERM
-
-interrup()
-{
-	echo "I am inivincible!!"
-}
+trap 'echo "I am invincible!!"' SIGTERM
 
 while TRUE
 do
