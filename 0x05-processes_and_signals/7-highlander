@@ -7,4 +7,8 @@ do
 done
 
 trap interupt SIGTERM
-	echo "I am invincible!!!"	
+
+interupt()
+(
+	echo "I am invincible!!!"
+)
