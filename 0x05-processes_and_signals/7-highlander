@@ -6,5 +6,5 @@ do
 	sleep 2
 done
 
-trap SIGTERM
+trap interupt SIGTERM
 	echo "I am invincible!!!"	
