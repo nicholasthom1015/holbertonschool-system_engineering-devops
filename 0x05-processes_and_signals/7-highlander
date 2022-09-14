@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # 'Kill Highlander'
+trap interupt SIGTERM
+
+interupt()
+{
+	echo "I am inivincible!!"
+}
+
 while TRUE
 do
 	echo "To infinity and beyond"
 	sleep 2
 done
-
-trap interupt SIGTERM
-
-interupt()
-(
-	echo "I am invincible!!!"
-)
