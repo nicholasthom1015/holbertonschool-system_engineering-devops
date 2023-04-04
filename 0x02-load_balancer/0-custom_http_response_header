@@ -9,6 +9,7 @@
 #+    The value of the HTTP header is the hostname of the running server.
 
 apt-get update
+apt-get -y upgrade
 apt-get install -y nginx
 
 mkdir -p /var/www/html
